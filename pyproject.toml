@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pyutils"
+version = "0.1.0"
+description = ""
+authors = ["natsukium <tm.tomatoes@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.30.0"
+flake8 = "^3.8.4"
+mypy = "^0.790"
+pytest = "^6.1.2"
+Sphinx = "^3.3.1"
+sphinx-rtd-theme = "^0.5.0"
+sphinxcontrib-katex = "^0.7.1"
+isort = "^5.6.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
